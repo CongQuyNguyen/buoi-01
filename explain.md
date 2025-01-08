@@ -12,8 +12,6 @@ Khi nói về hệ thống quản lý phiên bản, "tập trung" và "phân tá
 | **Làm việc ngoại tuyến**     | Không thể làm việc nếu không có kết nối đến máy chủ. | Có thể làm việc ngoại tuyến, vì tất cả dữ liệu có sẵn cục bộ. |
 | **Lịch sử và thay đổi**       | Lịch sử phiên bản được lưu trên máy chủ trung tâm. | Lịch sử đầy đủ được lưu trữ trên từng bản sao cục bộ. |
 | **Xung đột**                 | Xung đột được phát hiện khi người dùng đẩy thay đổi lên máy chủ. | Xung đột có thể được phát hiện và xử lý trong quá trình hợp nhất (merge). |
-| **Khả năng mở rộng**         | Phù hợp với các nhóm nhỏ hoặc vừa.             | Phù hợp với các nhóm lớn, đa địa điểm.          |
-| **Bảo mật dữ liệu**           | Nếu máy chủ bị lỗi hoặc mất dữ liệu, có thể mất toàn bộ lịch sử phiên bản (nếu không sao lưu). | Dữ liệu được phân tán trên nhiều máy, giảm nguy cơ mất mát dữ liệu. |
 
 
 ## Khi nào nên dùng từng loại:
